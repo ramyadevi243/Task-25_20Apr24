@@ -18,7 +18,7 @@ class IMDB:
         self.driver.maximize_window()
         self.driver.get(self.url)
 
-
+    # Method to pause the code for specified seconds
     def static_pause(self, seconds):
         start_time = time.time()
         while (time.time() - start_time) < seconds:
